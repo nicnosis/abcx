@@ -1,3 +1,11 @@
-body {
 
+// Horizontal Lines Before/After Text: https://stackoverflow.com/questions/38212963/how-to-display-a-horizontal-line-before-and-after-a-heading-in-css
+.hr-lines::before,
+.hr-lines::after {
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid #4f4f4f;
+    width: 8rem;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
 }
