@@ -1,7 +1,7 @@
 ---
-title: Coral Restoration Efforts
-thumbnail: assets/img/card-previews/preview-coral.png
-alt_text: Coral Restoration Project
-description: Collaborative infographic &amp; 3D-Modeling multimedia story on coral restoration
-url: http://{{github_username}}.github.io/coral/
+title: Mental Illness Visualization
+thumbnail: assets/img/card-previews/preview-mental.png
+alt_text: Mental Health Visualization
+description: Mentally ill people are more likely to go to prison than a psych hospital. This data visualization project explains why.
+url: http://{{github_username}}.github.io/
 ---
