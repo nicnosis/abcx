@@ -1,7 +1,9 @@
 ---
+order: 1
+category: web
 title: The Coffee Case
-thumbnail: 
+thumbnail: thumb-coffee.png
 alt_text: Webflow Coffee Site
-description: Coffee restaurant site made in Webflow.
-url: assets/student-sites/coffee
+description: Detective-themed coffee restaurant site made in Webflow.
+goto: assets/student-sites/coffee
 ---

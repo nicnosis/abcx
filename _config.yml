@@ -36,9 +36,9 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
-preview_paths:
-  nic: "assets/img/card-previews/nic/"
-
+thumbnail_paths:
+  nic: "assets/img/thumbnails/nic/"
+  student_web: "assets/img/thumbnails/student/web/"
 
 collections_dir: _projects
 collections:

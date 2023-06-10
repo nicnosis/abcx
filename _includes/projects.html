@@ -1,11 +1,12 @@
 <div class="container">
     <h1 class="display-1 main-heading mb-4" id="projects">Projects</h1>
+
     <div class="row row-cols-1 row-cols-md-3 g-4">
 
         {% for item in site.nic reversed %}
         <div class="col">
             <div class="border card h-100">
-                <img src="{{ site.preview_paths.nic }}{{ item.thumbnail }}" class="card-img-top"
+                <img src="{{ site.thumbnail_paths.nic }}{{ item.thumbnail }}" class="card-img-top"
                      alt="{{ item.alt_text }}" />
                 <div class="card-body">
                     <h5 class="card-title">{{ item.title }}</h5>
@@ -17,8 +18,5 @@
             </div>
         </div>
         {% endfor %}
-
-
-
     </div>
 </div>
