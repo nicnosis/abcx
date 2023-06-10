@@ -1,3 +1,25 @@
-<h4 class="display-4 text-center hr-lines">Web Design</h4>
+<section>
+    <h2 class="display-6 sub-heading">Web Design</h2>
+    <p>Students in <strong>Web &amp; Mobile Design</strong> learn <code>HTML, CSS, and JavaScript</code>. They also create responsive portfolio sites with
+        <a href="https://webflow.com/" target="_blank">Webflow</a>.</p>
 
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        {% for item in site.student-work reversed %}
+        <div class="col">
+            <div class="border card h-100">
+                <img src="{{ item.thumbnail }}" class="card-img-top"
+                     alt="{{ item.alt_text }}" />
+                <div class="card-body">
+                    <h5 class="card-title">{{ item.title }}</h5>
+                    <p class="card-text">{{ item.description }}</p>
+                    <div class="d-grid gap-2">
+                        <a href="{{ item.url }}" target="_blank" class="border btn btn-light btn-lg px-4 me-md-2">View Project <i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+</section>
 

@@ -36,11 +36,12 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
+collections_dir: _projects
 collections:
-  projects:
+  nic:
     output: true
-    permalink: /projects/:path/
-
+  student:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
