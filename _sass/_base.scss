@@ -21,14 +21,10 @@ nav {
 //END NAVBAR
 
 //HERO
-#hero {
-    //background-image: url('assets/img/geo-hero.png');
-}
-
 #intro {
-    background-image: url("/assets/img/geo-hero.png");
+    background-image: url("/assets/img/hero/geo-hero.png");
     background-position: bottom;
-    height: 65vh;
+    min-height: 65vh;
 }
 
 /* Height for devices larger than 576px */
