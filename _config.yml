@@ -39,6 +39,7 @@ plugins:
 thumbnail_paths:
   nic: "assets/img/thumbnails/nic/"
   student_web: "assets/img/thumbnails/student/web/"
+  student_gfx: "assets/img/thumbnails/student/gfx/"
 
 collections_dir: _projects
 collections:
