@@ -1,12 +1,13 @@
 <section>
-    <h1 class="display-1 main-heading mb-4" id="projects">Projects</h1>
+    <h2 class="display-6 sub-heading">Graphic Design</h2>
+    <p>Students in <strong>Graphic Design</strong> learn <code>HTML, CSS, and JavaScript</code>. They also create responsive portfolio sites with
+        <a href="https://webflow.com/" target="_blank">Webflow</a>.</p>
 
     <div class="row row-cols-1 row-cols-md-3 g-4">
-
-        {% for item in site.nic reversed %}
+        {% for item in site.student reversed sort %}
         <div class="col">
             <div class="border card h-100">
-                <img src="{{ site.thumbnail_paths.nic }}{{ item.thumbnail }}" class="card-img-top"
+                <img src="{{ site.thumbnail_paths.student_web }}{{ item.thumbnail }}" class="card-img-top"
                      alt="{{ item.alt_text }}" />
                 <div class="card-body">
                     <h5 class="card-title">{{ item.title }}</h5>

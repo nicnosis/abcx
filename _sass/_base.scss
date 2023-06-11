@@ -18,9 +18,11 @@ $lightGray: #d5d5d5;
 .main-heading {
     border-bottom: 0.3rem solid $lightGray;
 }
-
 .sub-heading {
 
 }
-
 //END HEADINGS
+
+section {
+    margin-bottom: calc(1.625rem + 4.5vw);
+}
