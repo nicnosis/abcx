@@ -1,0 +1,22 @@
+<h2 class="display-6 sub-heading">Procedural Art</h2>
+<p>Students in <strong>Procedural Art</strong> create programmatically-generated artwork with <code>p5.js</code> and <code>Houdini</code>.
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    {% for item in site.student reversed sort %}
+    {% if item.category == 'pro' %}
+    <div class="col">
+        <div class="border card h-100">
+            <img src="{{ site.thumbnail_paths.student_pro }}{{ item.thumbnail }}" class="card-img-top"
+                 alt="{{ item.alt_text }}" />
+            <div class="card-body">
+                <h5 class="card-title">{{ item.title }}</h5>
+                <p class="card-text">{{ item.description }}</p>
+                <div class="d-grid gap-2">
+                    <a href="{{ item.goto }}" target="_blank" class="border btn btn-light btn-lg px-4 me-md-2">View Project <i class="fas fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
